@@ -19,7 +19,7 @@ def get_path():
 
 # set up log to file
 # regex: ^(\d{4}-\d{2}-\d{2}\s\d{2}:\d{2}:\d{2})\s-\s(\S*)\s*-\s(\S*)\s*-\s([A-Z]{4,7})\s*(.*)$	^\d	%Y-%m-%d %H:%M:%S
-log.basicConfig(filename=path.join(get_path(), 'data', 'logs', 'prophetia.log'),
+log.basicConfig(filename=path.join(get_path(), 'data', 'logs', 'log.log'),
                 filemode='a',
                 format='%(asctime)s - %(threadName)-12s - %(name)-25s - %(levelname)-8s %(message)s',
                 datefmt='%Y-%m-%d %H:%M:%S',

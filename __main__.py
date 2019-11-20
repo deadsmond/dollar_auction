@@ -4,6 +4,39 @@ from flask import Flask, render_template, request
 from core.auction_house import AuctionHouse
 
 
+agent = None
+
+# mark new run in logfile
+log.info("Defining flask application")
+
+# define application
+app = Flask(__name__, template_folder='templates')
+app.config["DEBUG"] = True
+
+# --------------------------------------------- ENDPOINTS ----------------------------------------------------------
+# address for game logon
+@app.route('/', methods=['GET', 'POST'])
+def login():
+
+    # check if login attempt or start page get
+    if request.method == 'GET':
+        return render_template('login.html')
+
+    if request.method == 'POST':
+        # run validation in agent
+        return render_template('index.html', messages=agent.add_player(request.form))
+
+# auction house route
+@app.route('/auction', methods=['GET', 'POST'])
+def auction():
+    return render_template('index.html', messages=agent.add_player(request.form))
+
+# address for checkpoint
+@app.route('/checkpoint', methods=['GET'])
+def checkpoint():
+    return "Server is not down"
+
+
 if __name__ == '__main__':
     # --------------------------------------------- SCRIPT INIT --------------------------------------------------------
     # mark new run in logfile
@@ -26,32 +59,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # mark new run in logfile
-    log.info("Defining flask application")
-
-    # define application
-    app = Flask(__name__, template_folder='templates')
-    app.config["DEBUG"] = True
-
-    # mark new run in logfile
     log.info("Defining auction house agent")
     # define agent
     agent = AuctionHouse(args)
 
-    # --------------------------------------------- ENDPOINTS ----------------------------------------------------------
-    # address for game logon
-    @app.route('/', methods=['GET', 'POST'])
-    def login():
-
-        # check if login attempt or start page get
-        if request.method == 'GET':
-            return render_template('index.html')
-
-        if request.method == 'POST':
-            # run validation in agent
-            return render_template('index.html', messages=agent.add_player(request.form))
-
-
-    # address for checkpoint
-    @app.route('/checkpoint', methods=['GET'])
-    def checkpoint():
-        return "Server is not down"
+    app.run(port=args.port)
