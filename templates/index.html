@@ -21,7 +21,6 @@
 
 </head>
 <body>
-
     <header class="site-header" id="top">
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -38,12 +37,10 @@
                     </div>
                     <div class="collapse navbar-collapse" id="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><span></span><a href="#big-banner" class="home">Home</a></li>
                             <li><span></span><a href="#first-section" class="about">Game</a></li>
-                            <li><span></span><a href="#cta" class="portfolio">Bids</a></li>
-                            <li><span></span><a href="#map" class="map">Results</a></li>
-                            <li><span></span><a href="#third-section" class="contact">Help</a></li>
-                            <li><span></span><a href="#third-section" class="contact">Contact</a></li>
+                            <li><span></span><a href="#second-section" class="portfolio">Bids</a></li>
+                            <li><span></span><a href="#results" class="results">Results</a></li>
+                            <li><span></span><a class="player">Player: {{ name }}</a></li>
                         </ul>
                     </div>
                 </div>
@@ -57,15 +54,13 @@
                 <div class="col-md-12 col-xs-12">
                     <ul class="main-icons">
                         <li><a href="#first-section"><i class="fa fa-gamepad"></i>Game</a></li>
-                        <li><a href="#cta"><i class="fa fa-money"></i>Bids</a></li>
-                        <li><a href="#map"><i class="fa fa-bar-chart-o"></i>Results</a></li>
-                        <li><a href="#third-section"><i class="fa fa-medkit"></i>Help</a></li>
+                        <li><a href="#second-section"><i class="fa fa-money"></i>Bids</a></li>
+                        <li><a href="#results"><i class="fa fa-bar-chart-o"></i>Results</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-
 
     <div id="first-section">
         <div class="heading">
@@ -82,67 +77,34 @@
     <div id="first-section1">
         <div class="container">
             <div class="row">
-                <div class="triangle"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <section id="cd-timeline" class="cd-container">
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="static/images/first-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content service-box-content">
-                                <h2>Free Web Template</h2>
-                                <p>Timeline is free responsive template by <span class="blue">template</span><span class="green">mo</span>. This layout is based on Bootstrap v3.1.1 and you may use this template for any website. Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for all images.</p>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-movie">
-                                <img src="static/images/second-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content service-box-content">
-                                <h2>Top Icons</h2>
-                                <p>You can easily <strong>change top icons</strong> by looking at guidelines from <a rel="nofollow" href="http://fontawesome.info/font-awesome-icon-world-map/">Font Awesome</a>. Example: <strong>&lt;i class=&quot;fa fa-camera&quot;&gt;&lt;/i&gt;</strong></p>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-icon">
-                                <img src="static/images/third-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content service-box-content">
-                                <h2>Responsive Design</h2>
-                                <p>Vestibulum ante ipsum priminisieru in faucibus orci luctus et ultrices posuere cubilia Curae unserd Etiam nisl dui, commodo sit amet eget, vel turpis. Suspendisse at est purus.</p>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-location">
-                                <img src="static/images/fourth-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content service-box-content">
-                                <h2>Communication</h2>
-                                <p>Phasellus lobortis vitae ipsum vitae luctus. Proin sodales mi a arcu iaculis, in dapibus nunc sodales. Maecenas auctor vel eros a dapibus.</p>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="cta">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>Bids</h4>
-                    <p>What we have done</p>
-                </div>
+                <table class="table center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="col-md-12">
+                                    <form class="form">
+                                        <div class="input-group">
+                                            <input type="number" name="bid" id="bid" placeholder=0 />
+                                            <div class="submit">
+                                                <input type="submit" value="Place bet" />
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="contact-discription">
+                                    <h4>Make a bid!</h4>
+                                    <p>Bet higher stake then your opponents to win the main prize!
+                                    <br><br>
+                                    <strong>But remember...</strong><br>
+                                    ...you have to pay the bid you made!
+                                    </p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -152,7 +114,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                            <h2>Latest Work</h2>
+                            <h2>Bids</h2>
                     </div>
                 </div>
             </div>
@@ -162,163 +124,88 @@
     <div id="second-section2">
         <div class="container">
             <div class="row">
-                <div class="triangle"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <section id="cd-timeline-2" class="cd-container">
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="static/images/camera-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content projects">
-                                <img src="static/images/project-1.jpg" alt="">
-                                <div class="project-content">
-                                    <h2>Donec at scelerisque</h2>
-                                    <span>18 December 2084</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="images/camera-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content projects">
-                                <img src="images/project-2.jpg" alt="">
-                                <div class="project-content">
-                                    <h2>Nullam hendrerit ultrices</h2>
-                                    <span>12 December 2084</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="images/camera-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content projects">
-                                <img src="images/project-3.jpg" alt="">
-                                <div class="project-content">
-                                    <h2>Quisque mollis diam</h2>
-                                    <span>10 December 2084</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="images/camera-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content projects">
-                                <img src="images/project-4.jpg" alt="">
-                                <div class="project-content">
-                                    <h2>Etiam a ultricies</h2>
-                                    <span>30 November 2084</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cd-timeline-block">
-                            <div class="cd-timeline-img cd-picture">
-                                <img src="images/camera-icon.png" alt="Picture">
-                            </div>
-
-                            <div class="cd-timeline-content projects">
-                                <img src="images/project-5.jpg" alt="">
-                                <div class="project-content">
-                                    <h2>Curabitur interdum</h2>
-                                    <span>22 November 2084</span>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Bid</th>
+                        <th scope="col">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>0</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>12</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>6</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
 
-
-    <div id="map">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h4>Results</h4>
-                    <p>This is where we operate</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="map-content">
-                    <div id="templatemo-map"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="third-section">
+    <div id="results">
         <div class="heading">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                            <h2>Help</h2>
+                        <h2>Results</h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="third-section3">
+    <div id="results2">
         <div class="container">
             <div class="row">
-                <div class="triangle"></div>
-            </div>
-            <div class="row">
-                <div class="col-md-8">
-                    <form class="form">
-                        <div class="row">
-                        <div class="name col-md-4">
-                            <input type="text" name="name" id="name" placeholder="Name" />
-                        </div>
-                        <div class="email col-md-4">
-                            <input type="text" name="email" id="email" placeholder="Email" />
-                        </div>
-                        <div class="subject col-md-4">
-                            <input type="text" name="subject" id="subject" placeholder="Subject" />
-                        </div>
-                        </div>
-                        <div class="row">
-                            <div class="text col-md-12">
-                                <textarea name="text" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <div class="submit">
-                            <input type="submit" value="Send Now" />
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-4">
-                    <div class="contact-discription">
-                        <h4>More About Us!</h4>
-                        <p>Suspendisse sit amet tincidunt dolor, at elementum augue. In non diam nulla. Nulla sit amet ipsum finibus purus tempor pellentesque.
-                        <br><br>
-                        <strong>Mailing Address:</strong><br>
-                        No 123, New street, Sed sit amet arcu ut quam, 10550.
-                        <br><br>
-                        Tel: 010 020 0340<br>
-                        Email: info@company.com
-                        <br><br>
-                        Morbi tincidunt nibh ante, ut lacinia turpis euismod vel. Nam suscipit justo sit amet vehicula elementum.
-                        </p>
-                    </div>
-                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Bid</th>
+                        <th scope="col">Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Mark</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>12</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Larry</td>
+                            <td>6</td>
+                            <td>-6</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
-
 
     <footer>
         <div class="container">
@@ -327,7 +214,7 @@
                     <div class="col-md-12">
                         <div class="col-md-4">
                             <div class="copyright-text">
-                                <p>Copyright &copy; 2084 <a href="#">Company Name</a></p>
+                                <p>Copyright &copy; Adam, 2019</p>
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -338,9 +225,6 @@
                         <div class="col-md-4">
                             <div class="social-icons">
                                 <ul>
-                                    <li><a href="#" class="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" class="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" class="#"><i class="fa fa-linkedin"></i></a></li>
                                     <li><a href="#" class="#"><i class="fa fa-rss"></i></a></li>
                                 </ul>
                             </div>

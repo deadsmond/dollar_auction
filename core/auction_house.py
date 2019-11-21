@@ -5,29 +5,33 @@ from core.utils import log
 class AuctionHouse:
     # general class attributes:
     # ------------------------------------------------------------------------
+
+    def __repr__(self):
+        return str(self.players)
+
     # initializer of class
-    def __init__(self, args):
-        # store init arguments
-        self.args = args
+    def __init__(self):
 
         # empty dictionary object to store responses from players
-        self.properties = {
-            "players": [
+        self.players = {}
 
-            ]
-        }
+        self.admin = ''
 
-    def add_player(self, payload):
+    def add_player(self, id_, name):
+        # set first user as admin
+        if not self.players:
+            self.admin = id_
+
+        self.players[id_] = name
+        log.info("joined [%s] as [%s]" % (id_, name))
+
+    def check_if_in(self, id_):
+        return id_ in self.players
+
+    def get_name(self, id_):
         try:
-            if \
-                    payload['id'] and \
-                    payload['nick'] and \
-                    payload['id'] not in self.properties['players']:
-
-                self.properties['players'][payload['id']] = payload['nick']
-                return "login of player %s successful" % payload['nick']
-            else:
-                return "login of player %s was not successful" % payload['nick']
-        except Exception as e:
+            return self.players[id_]
+        except KeyError as e:
+            print(e)
             log.error(e)
-            return e
+            return "ERROR"
