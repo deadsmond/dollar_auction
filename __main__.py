@@ -39,10 +39,10 @@ def auction():
     admin_ = (request.remote_addr == agent.admin)
 
     if request.method == 'GET':
-        print("GET")
+        log.info("GET")
 
     elif request.method == 'POST':
-        print("POST")
+        log.info("POST")
 
     return render_template('index.html',
                            name=name,

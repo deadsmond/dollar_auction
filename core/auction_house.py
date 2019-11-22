@@ -47,6 +47,5 @@ class AuctionHouse:
                     return player[1]
             raise KeyError
         except KeyError as e:
-            print(e)
             log.error(e)
             return "ERROR"
