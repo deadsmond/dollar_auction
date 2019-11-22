@@ -10,8 +10,20 @@ Simple server hosting dollar auction in local network
 Other players have to join it.
 6. Start the game once everybody is in!
 
+## Technology stack
+
+dollar_auction utilises:
+- *Python 3* as language, 
+- *Flask* as server engine 
+- *Jinja 2* as User Interface html generator. 
+([documentation here](https://buildmedia.readthedocs.org/media/pdf/jinja2/stable/jinja2.pdf))
+
 ## Known issues
 
 - Flask server does not understand HTTPS connections 
 and raises ValueError when machine tries to connect via https://domain.example address. 
 Please remember to change the address to http.
+
+[issue update]: added false certificate to sign 
+during https connections. Web browser will raise 
+a warning that shall be ignored.

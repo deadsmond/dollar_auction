@@ -35,15 +35,21 @@ def login():
 # auction house route
 @app.route('/auction', methods=['GET', 'POST'])
 def auction():
-    # validate player or admin
     name = agent.get_name(request.remote_addr)
+    admin_ = (request.remote_addr == agent.admin)
 
-    if request.remote_addr == agent.admin:
-        # admin
-        return render_template('index.html', name=name)
-    else:
-        # player
-        return render_template('index.html', name=name)
+    if request.method == 'GET':
+        print("GET")
+
+    elif request.method == 'POST':
+        print("POST")
+
+    return render_template('index.html',
+                           name=name,
+                           admin=admin_,
+                           players=agent.players,
+                           results=agent.results
+                           )
 
 # address for checkpoint
 @app.route('/checkpoint', methods=['GET'])

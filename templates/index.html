@@ -26,7 +26,8 @@
             <div class="container">
                 <div class="row">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <button type="button" class="navbar-toggle collapsed"
+                                data-toggle="collapse" data-target=".navbar-collapse">
                           <i class="fa fa-bars"></i>
                         </button>
                         <div class="logo-wrapper">
@@ -67,9 +68,22 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                            <h2 class="header-section-title">Game</h2>
+                        <h2 class="header-section-title">Game</h2>
                     </div>
                 </div>
+                {% if admin: %}
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="form">
+                                <div class="input-group">
+                                    <div class="submit">
+                                        <input type="submit" value="Start New Game" />
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -114,7 +128,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                            <h2>Bids</h2>
+                        <h2>Bids</h2>
                     </div>
                 </div>
             </div>
@@ -134,24 +148,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>0</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>12</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>6</td>
-                            <td></td>
-                        </tr>
+                        {% for player in players %}
+                            <tr>
+                                <th scope="row">{{ loop.index }}</th>
+                                <td>{{ player[1] }}</td>
+                                <td>{{ player[2] }}</td>
+                                <td></td>
+                            </tr>
+                        {% endfor %}
                     </tbody>
                 </table>
             </div>
@@ -173,36 +177,30 @@
     <div id="results2">
         <div class="container">
             <div class="row">
-                <table class="table">
-                    <thead>
-                        <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Bid</th>
-                        <th scope="col">Result</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>0</td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>12</td>
-                            <td>20</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>6</td>
-                            <td>-6</td>
-                        </tr>
-                    </tbody>
-                </table>
+                {% if results: %}
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Bid</th>
+                            <th scope="col">Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for result in results %}
+                                <tr>
+                                    <th scope="row">{{ loop.index }}</th>
+                                    <td>{{ player[1] }}</td>
+                                    <td>{{ player[2] }}</td>
+                                    <td></td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else: %}
+                    <h4> No results to show yet :( </h4>
+                {% endif %}
             </div>
         </div>
     </div>
