@@ -4,7 +4,7 @@ from core.utils import log
 # object serving as room during auction, with several properties
 class AuctionHouse:
     # general class attributes:
-    # ------------------------------------------------------------------------
+    # ------------------------------------------------------------------------------------------------------------------
 
     def __repr__(self):
         return str(self.players)
@@ -21,6 +21,7 @@ class AuctionHouse:
         # admin id
         self.admin = ''
 
+    # ----------------- PLAYER SUPPORT ---------------------------------------------------------------------------------
     def add_player(self, id_, name):
 
         # set first user as admin
@@ -37,6 +38,7 @@ class AuctionHouse:
         for player in self.players:
             if player[0] == id_:
                 return True
+        log.error("check_if_in: could not find [%s] on list" % id_)
         return False
 
     # iterate through list to get the name of id
@@ -45,7 +47,23 @@ class AuctionHouse:
             for player in self.players:
                 if player[0] == id_:
                     return player[1]
+            log.error("get_name: could not find [%s] on list" % id_)
             raise KeyError
         except KeyError as e:
             log.error(e)
             return "ERROR"
+
+    # ----------------- GAME MAINTENANCE -------------------------------------------------------------------------------
+    def add_bid(self, id_, bid):
+        for player in self.players:
+            if player[0] == id_:
+                if player[2] < bid:
+                    player[2] = bid
+                    log.info("[%s][%s] changed bid from %s to %s" %
+                             (player[0], player[1], player[2], bid))
+                    yield
+                else:
+                    log.warning("[%s][%s] tried to bid from %s to %s. Not cool, bro. Not cool." %
+                                (player[0], player[1], player[2], bid))
+                    yield
+        log.error("add_bid: could not find [%s] on list" % id_)

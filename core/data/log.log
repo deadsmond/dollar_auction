@@ -2720,3 +2720,451 @@ jinja2.exceptions.UndefinedError: 'jinja2.runtime.LoopContext object' has no att
 2019-11-22 10:10:14 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:10:14] "[32mPOST / HTTP/1.1[0m" 302 -
 2019-11-22 10:10:14 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:10:14] "[37mGET /auction HTTP/1.1[0m" 200 -
 2019-11-22 10:17:27 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:17:27] "[37mGET /auction?bid=6 HTTP/1.1[0m" 200 -
+2019-11-22 10:46:42 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:46:42 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:46:42 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:46:43 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:47:01 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 10:47:01 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:47:01 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:01] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 10:47:05 - Thread-10    - root                      - ERROR    could not find [127.0.0.1] on list
+2019-11-22 10:47:05 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [Hmmm]
+2019-11-22 10:47:05 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 10:47:05 - Thread-11    - root                      - INFO     GET
+2019-11-22 10:47:06 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:06] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:47:12 - Thread-12    - root                      - INFO     GET
+2019-11-22 10:47:12 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:47:12] "[37mGET /auction?bid=5 HTTP/1.1[0m" 200 -
+2019-11-22 10:48:26 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:48:26 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:48:26 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:48:28 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:48:35 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:35] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 10:48:36 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:48:36 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:36] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 10:48:39 - Thread-10    - root                      - ERROR    could not find [127.0.0.1] on list
+2019-11-22 10:48:39 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmmm]
+2019-11-22 10:48:39 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 10:48:40 - Thread-11    - root                      - INFO     GET
+2019-11-22 10:48:40 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:40] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:48:44 - Thread-12    - __main__                  - ERROR    Exception on /auction [POST]
+Traceback (most recent call last):
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "D:/PyCharm/dollar_auction/__main__.py", line 46, in auction
+    agent.add_bid(id_, request['bid'])
+  File "C:\Users\Adam\AppData\Local\Programs\Python\Python37\lib\site-packages\werkzeug\local.py", line 378, in <lambda>
+    __getitem__ = lambda x, i: x._get_current_object()[i]
+TypeError: 'Request' object is not subscriptable
+2019-11-22 10:48:44 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:48:44] "[1m[35mPOST /auction HTTP/1.1[0m" 500 -
+2019-11-22 10:49:18 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:49:18 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:49:18 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:49:19 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:49:23 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:23] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 10:49:23 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:49:24 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:24] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 10:49:26 - Thread-10    - root                      - ERROR    could not find [127.0.0.1] on list
+2019-11-22 10:49:26 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmmm]
+2019-11-22 10:49:26 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 10:49:27 - Thread-11    - root                      - INFO     GET
+2019-11-22 10:49:27 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:27] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:49:28 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:28] "[37mGET /static/fonts/fontawesome-webfont.woff?v=4.1.0 HTTP/1.1[0m" 200 -
+2019-11-22 10:49:31 - Thread-13    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:49:31] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:51:15 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:51:15 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:51:15 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:51:18 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:51:24 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:24] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 10:51:25 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:51:25 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:25] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 10:51:28 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 10:51:28 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 10:51:28 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:28] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 10:51:28 - Thread-11    - root                      - INFO     GET
+2019-11-22 10:51:28 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:28] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:51:33 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:51:33] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:53:16 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:53:16 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:53:16 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:53:17 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:53:22 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:22] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 10:53:23 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:53:23 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:23] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 10:53:26 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 10:53:26 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 10:53:26 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:26] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 10:53:26 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 10:53:26 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:53:26] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 10:59:00 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:00] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 10:59:05 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 10:59:05 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 10:59:05 - MainThread   - root                      - INFO     running server...
+2019-11-22 10:59:06 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 10:59:10 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:10] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 10:59:11 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 10:59:11 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 10:59:11] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:02:08 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:02:08 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:02:08 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:02:09 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:02:13 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:13] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[37mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[37mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[37mGET /static/css/templatemo-style.css HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[37mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[37mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 200 -
+2019-11-22 11:02:14 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2019-11-22 11:02:40 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:02:40 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:02:40 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:02:42 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:02:44 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:44] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 11:02:45 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:02:45 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:45] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:02:45 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:45] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:02:45 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:45] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:02:45 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:02:45] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:03:13 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:13] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 11:03:17 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:03:17 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:03:17 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:03:19 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:03:21 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:21] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 11:03:22 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:03:22 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:22] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:03:22 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:22] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:03:22 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:22] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:03:22 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:03:22] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:04:02 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:04:02 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:04:02 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:04:03 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:04:06 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[37mGET /checkpoint HTTP/1.1[0m" 200 -
+2019-11-22 11:04:06 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:04:06 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:04:06 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:04:06 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:04:06 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:04:06] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:08:55 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:08:55 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:08:55 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:08:56 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:09:29 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:09:29 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:09:29 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:09:30 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:09:36 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:36] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:09:37 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:09:37 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:09:37 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:09:37 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:09:37 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:09:37 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[37mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 200 -
+2019-11-22 11:09:37 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:37] "[37mGET /static/js/custom.js HTTP/1.1[0m" 200 -
+2019-11-22 11:09:40 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:09:40 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:09:40 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:40] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:09:40 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:09:40 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:40] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:09:41 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:41] "[37mGET /static/images/big-image.jpg HTTP/1.1[0m" 200 -
+2019-11-22 11:09:41 - Thread-13    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:09:41] "[37mGET /static/fonts/fontawesome-webfont.woff?v=4.1.0 HTTP/1.1[0m" 200 -
+2019-11-22 11:13:09 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:13:09 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:13:09 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:13:11 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:13:15 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:15] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:13:15 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:13:16 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:16] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:13:18 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:13:18 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmmm]
+2019-11-22 11:13:18 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:13:18 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:13:18 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:13:18] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:14:26 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:14:26 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:14:26 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:14:28 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:14:32 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:32] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:14:33 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:14:33 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:33] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:14:36 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:14:36 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:14:36 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:14:36 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:14:36 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:14:36] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:15:00 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:15:00 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:15:00 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:15:01 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:15:07 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:15:07 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:07 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:07] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:10 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:15:10 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:15:10 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:10] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:15:10 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:15:10 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:10] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:15:47 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:15:47 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:15:47 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:15:48 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:15:55 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:15:55 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:55 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:55] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:15:58 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:15:58 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:15:58 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:15:59 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:15:59 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:15:59] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:16:38 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:16:38 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:16:38 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:16:40 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:16:47 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:47] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:16:47 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:16:48 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:48] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:16:50 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:16:50 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hljk]
+2019-11-22 11:16:50 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:16:51 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:16:51 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:16:51] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:17:10 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:17:10 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:17:10 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:17:11 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:17:15 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:15] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:17:16 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:16 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:16] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:18 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:17:18 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [fghfg]
+2019-11-22 11:17:18 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:18] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:17:19 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:17:19 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:19] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:17:34 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:17:34 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:17:34 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:17:36 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:17:41 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:41] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:17:42 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:42 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:42] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:17:45 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:17:45 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [gggg]
+2019-11-22 11:17:45 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:17:45 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:17:45 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:17:45] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:17:58 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:17:58 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:17:58 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:18:01 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:18:07 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:07] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:18:08 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:08 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:08] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:11 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:18:11 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [jjj]
+2019-11-22 11:18:11 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:11] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:18:11 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:18:11 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:11] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:18:24 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:18:24 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:18:24 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:18:26 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:18:34 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:34] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:18:35 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:35 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:35] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:18:38 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:18:38 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [jjj]
+2019-11-22 11:18:38 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:18:38 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:18:38 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:18:38] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:19:22 - Thread-12    - root                      - INFO     auction POST
+2019-11-22 11:19:22 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:19:22] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:20:09 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:20:09 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:20:09 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:20:10 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:20:17 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:20:17 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:20:17 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:20:17 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:20:17 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:20:17 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:17] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:20:18 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:18] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:20:18 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:18] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:20:21 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:20:21 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [gfhfhfg]
+2019-11-22 11:20:21 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:20:22 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:20:22 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:22] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:20:30 - Thread-12    - root                      - INFO     auction POST
+2019-11-22 11:20:30 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:20:30] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:20:51 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:20:51 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:20:51 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:20:52 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:21:00 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:21:00 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:21:00 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:00] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:21:04 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:21:04 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [ggg]
+2019-11-22 11:21:04 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:21:04 - Thread-11    - root                      - INFO     auction GET
+2019-11-22 11:21:04 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:04] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:21:12 - Thread-12    - root                      - INFO     auction POST test
+2019-11-22 11:21:12 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:12] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:21:17 - Thread-13    - root                      - INFO     auction POST test
+2019-11-22 11:21:17 - Thread-13    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:21:17] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:22:27 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:22:27 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:22:27 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:22:27 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:22:38 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:38] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:22:39 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-13    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:22:39 - Thread-14    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:39] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:22:43 - Thread-15    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:22:43 - Thread-15    - root                      - INFO     joined [127.0.0.1] as [gggg]
+2019-11-22 11:22:43 - Thread-15    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:43] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:22:43 - Thread-16    - root                      - INFO     auction GET
+2019-11-22 11:22:43 - Thread-16    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:22:43] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:22:49 - Thread-17    - root                      - INFO     auction POST test
+2019-11-22 11:27:09 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:27:09 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:27:09 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:27:10 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:27:18 - Thread-2     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:18] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:27:19 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:27:19 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:19] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:27:23 - Thread-10    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:27:23 - Thread-10    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:27:23 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:23] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:27:23 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:23] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:27:30 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:27:30] "[37mPOST /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:31:00 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:31:00 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:31:00 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:31:01 - MainThread   - werkzeug                  - INFO      * Restarting with stat
+2019-11-22 11:31:02 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:31:02 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:31:02 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:31:03 - MainThread   - werkzeug                  - WARNING   * Debugger is active!
+2019-11-22 11:31:03 - MainThread   - werkzeug                  - INFO      * Debugger PIN: 190-851-843
+2019-11-22 11:31:04 - Thread-1     - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:31:49 - MainThread   - werkzeug                  - INFO      * Detected change in 'D:\\PyCharm\\dollar_auction\\__main__.py', reloading
+2019-11-22 11:31:49 - MainThread   - werkzeug                  - INFO      * Restarting with stat
+2019-11-22 11:31:50 - MainThread   - root                      - INFO     Defining flask application
+2019-11-22 11:31:50 - MainThread   - root                      - INFO     Starting new auction house -----------------------------------------------------------------------------
+2019-11-22 11:31:50 - MainThread   - root                      - INFO     running server...
+2019-11-22 11:31:51 - MainThread   - werkzeug                  - INFO      * Running on https://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-11-22 11:31:54 - Thread-3     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:54] "[37mGET / HTTP/1.1[0m" 200 -
+2019-11-22 11:31:55 - Thread-4     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-5     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-6     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/css/templatemo-style.css HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-7     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/js/vendor/jquery-1.10.2.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-8     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/js/vendor/modernizr.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-9     - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/js/vendor/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-11-22 11:31:55 - Thread-10    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:31:55] "[36mGET /static/js/custom.js HTTP/1.1[0m" 304 -
+2019-11-22 11:32:01 - Thread-11    - root                      - ERROR    check_if_in: could not find [127.0.0.1] on list
+2019-11-22 11:32:01 - Thread-11    - root                      - INFO     joined [127.0.0.1] as [hmm]
+2019-11-22 11:32:01 - Thread-11    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:32:01] "[32mPOST / HTTP/1.1[0m" 302 -
+2019-11-22 11:32:01 - Thread-12    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:32:01] "[37mGET /auction HTTP/1.1[0m" 200 -
+2019-11-22 11:32:03 - Thread-13    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:32:03] "[37mGET /static/images/big-image.jpg HTTP/1.1[0m" 200 -
+2019-11-22 11:32:03 - Thread-14    - werkzeug                  - INFO     127.0.0.1 - - [22/Nov/2019 11:32:03] "[37mGET /static/fonts/fontawesome-webfont.woff?v=4.1.0 HTTP/1.1[0m" 200 -

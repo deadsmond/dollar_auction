@@ -71,10 +71,10 @@
                         <h2 class="header-section-title">Game</h2>
                     </div>
                 </div>
-                {% if admin: %}
+                {% if admin %}
                     <div class="row">
                         <div class="col-md-12">
-                            <form class="form">
+                            <form class="form" method="post">
                                 <div class="input-group">
                                     <div class="submit">
                                         <input type="submit" value="Start New Game" />
@@ -96,7 +96,7 @@
                         <tr>
                             <td>
                                 <div class="col-md-12">
-                                    <form class="form">
+                                    <form class="form" method="post">
                                         <div class="input-group">
                                             <input type="number" name="bid" id="bid" placeholder=0 />
                                             <div class="submit">
@@ -177,7 +177,7 @@
     <div id="results2">
         <div class="container">
             <div class="row">
-                {% if results: %}
+                {% if results %}
                     <table class="table">
                         <thead>
                             <tr>
@@ -193,13 +193,20 @@
                                     <th scope="row">{{ loop.index }}</th>
                                     <td>{{ player[1] }}</td>
                                     <td>{{ player[2] }}</td>
-                                    <td></td>
+                                    <td>
+                                        {% if loop.index == 1 %}
+                                            ( ͡☆ ͜ʖ ͡☆)
+                                        {% else %}
+                                            ( ͡ಠ ʖ̯ ͡ಠ)
+                                        {% endif %}
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </tbody>
                     </table>
-                {% else: %}
-                    <h4> No results to show yet :( </h4>
+                {% else %}
+                    <h4> No results to show yet. </h4>
+                    <h4> ¯\_( ͡° ͜ʖ ͡°)_/¯ </h4>
                 {% endif %}
             </div>
         </div>

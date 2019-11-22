@@ -10,7 +10,6 @@ log.info("Defining flask application")
 
 # define application
 app = Flask(__name__, template_folder='templates')
-app.config["DEBUG"] = False
 
 
 # --------------------------------------------- ENDPOINTS ----------------------------------------------------------
@@ -35,14 +34,12 @@ def login():
 # auction house route
 @app.route('/auction', methods=['GET', 'POST'])
 def auction():
+    id_ = request.remote_addr
     name = agent.get_name(request.remote_addr)
     admin_ = (request.remote_addr == agent.admin)
 
-    if request.method == 'GET':
-        log.info("GET")
-
-    elif request.method == 'POST':
-        log.info("POST")
+    if request.method == 'POST':
+        agent.add_bid(id_, request.form['bid'])  # TODO: where is agent
 
     return render_template('index.html',
                            name=name,
@@ -54,7 +51,7 @@ def auction():
 # address for checkpoint
 @app.route('/checkpoint', methods=['GET'])
 def checkpoint():
-    return "Server is not down"
+    return render_template('checkpoint.html')
 
 
 if __name__ == '__main__':
@@ -65,4 +62,4 @@ if __name__ == '__main__':
     agent = AuctionHouse()
     # mark new run in logfile
     log.info("running server...")
-    app.run(ssl_context='adhoc')
+    app.run(debug=False, ssl_context='adhoc')
